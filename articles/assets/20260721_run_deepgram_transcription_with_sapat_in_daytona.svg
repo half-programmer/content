@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Sapat Deepgram workflow in Daytona</title>
+  <desc id="desc">A four step workflow from Daytona workspace to Sapat, Deepgram, and transcript output.</desc>
+  <rect width="1200" height="630" fill="#f7fafc"/>
+  <rect x="70" y="90" width="1060" height="450" rx="24" fill="#ffffff" stroke="#d8e0ea" stroke-width="3"/>
+  <text x="105" y="155" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#162033">Deepgram Transcription in a Daytona Workspace</text>
+  <text x="105" y="200" font-family="Arial, sans-serif" font-size="20" fill="#4b5b70">Keep dependencies, API keys, and transcript validation in one reproducible environment.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="110" y="275" width="210" height="120" rx="14" fill="#e8f1ff" stroke="#9cbcf5" stroke-width="2"/>
+    <text x="145" y="325" font-size="23" font-weight="700" fill="#183f7a">Daytona</text>
+    <text x="145" y="358" font-size="18" fill="#355377">Workspace setup</text>
+    <rect x="370" y="275" width="210" height="120" rx="14" fill="#edf7ee" stroke="#9ccca3" stroke-width="2"/>
+    <text x="415" y="325" font-size="23" font-weight="700" fill="#245b2c">Sapat CLI</text>
+    <text x="415" y="358" font-size="18" fill="#3d6842">Convert and send</text>
+    <rect x="630" y="275" width="210" height="120" rx="14" fill="#fff4df" stroke="#e5be72" stroke-width="2"/>
+    <text x="670" y="325" font-size="23" font-weight="700" fill="#76501c">Deepgram</text>
+    <text x="670" y="358" font-size="18" fill="#7a623c">nova-3 STT API</text>
+    <rect x="890" y="275" width="210" height="120" rx="14" fill="#f5eafd" stroke="#caa6e8" stroke-width="2"/>
+    <text x="935" y="325" font-size="23" font-weight="700" fill="#5d2d80">Transcript</text>
+    <text x="935" y="358" font-size="18" fill="#6b4b83">Review and reuse</text>
+    <path d="M322 335 H365" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M582 335 H625" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M842 335 H885" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M356 326 L370 335 L356 344" fill="none" stroke="#64748b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M616 326 L630 335 L616 344" fill="none" stroke="#64748b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M876 326 L890 335 L876 344" fill="none" stroke="#64748b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="105" y="470" font-family="Arial, sans-serif" font-size="19" fill="#4b5b70">Secrets stay in environment variables. Recordings and generated transcripts stay out of Git unless they are public test assets.</text>
+</svg>
